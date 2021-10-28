@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Hongos de los Andes</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logos.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Nuestros Productos</h1>
+	
+</section>
+
+<!------ Nuestros productos contenido ------>
+
+<section class="Productos">
+	<h2>¿Qué son los Hongos?</h2>
+&nbsp;
+	<p>Los hongos son excelente fuente de minerales, proteínas, antioxidantes y grasas vegetales. <br>Son muy flexibles en la cocina, siendo un gran reemplazo de la carne.</br></p>
+ &nbsp;
+	<h2>¿Qué tipos de hongos ofrecemos?</h2>
+	<div class="row">
+		<div class="productos-col">
+			<img src="images/girgolas.png" class="img-responsive" height="350" width="300" alt="">
+			<h3>Gírgola</h3>
+			<p>La Gírgola, champiñón ostra o pleuroto en forma de ostra (Pleurotus ostreatus) es un hongo que se consume ampliamente por su sabor y propiedades. Tiene un alto contenido de minerales. Es una excelente fuente de vitaminas, especialmente del complejo B. Tiene altos contenidos en vitamina D.</p>
+		</div>
+		<div class="productos-col">
+			<img src="images/melena-de-leon.jpg" class="img-responsive" height="350" width="300" alt="">
+			<h3>Melena de León</h3>
+			<p>Hongo comestible de carne blanca con sabor similar a la langosta. Destacado por su alto contenido proteico y nutricional. Regeneradora de mucosas intestinales, útil en patologías nerviosas tales como disminución del estrés e insomnio. Tratamiento del Alzheimer y Parkinson; esclerosis múltiple y otras enfermedades neurodegenerativas. Inmunoreguladora.</p>
+		</div>
+		<div class="productos-col">
+			<img src="images/reishi.jpg" class="img-responsive" height="350" width="300" alt="">
+			<h3>Reishi</h3>
+			<p> Hongo de textura y sabor leñoso, es considerado el hongo de la eterna juventud por sus múltiples propiedades antioxidantes. Se consume como infusión. Fortalece el sistema inmune, antiinflamatorio, antialérgico, ayuda a disminuir la presión arterial, el colesterol y triglicéridos.
+ 		</div>
+	</div>
+	
+</section>
+
+
+<!------ Pie de página ------>
+<section class="footer">
+	<h3>Te invitamos a seguirnos en redes y conocer nuestro trabajo</h3>
+	&nbsp;
+	<div class="icons">
+		<i class="fa fa-envelope" <p><b> contacto@hongosdelosandes.com</b></p></i>
+	<div class="nav-links" id="navLinks">
+		</div>
+		<i class="fa fa-leaf" <p> 2021 - Hecho por Guillermina Bravo</p></i>	
+		
+</div>
+			
+				
+			
+	
+
+	
+<!------JavaScript for Toggle Menu------>
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+			navLinks.style.right = "0";
+	}
+	function hideMenu(){
+			navLinks.style.right = "-200px";
+	}
+
+</script>
+	
+</body>
+</html>

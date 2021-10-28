@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Hongos de los Andes</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logos.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Contacto</h1>
+	
+</section>
+
+<!------ Contacto ------>
+
+
+<section class="ubicacion">
+	
+<img src="images/contacto.jpg" class="center" height="400" width="430" alt="">
+<br></br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53609.02109427781!2d-68.8935386750509!3d-32.88325824035863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1635283450049!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<section class="contactate">
+
+		<div>
+			<i class="fa fa-home"></i>
+			<span>
+			<h5>Mendoza Capital</h5>
+			<p>Mendoza, Argentina</p>
+			
+			</span>
+			
+			</div>
+		<div class="contacto-col">
+		<div>
+			<i class="fa fa-phone"></i>
+			<span>
+			<h5>+542616376264</h5>
+			<p>Lunes a Viernes, 9 a 20hs</p>
+			
+			</span>
+			
+			</div>
+		<div class="contacto-col">
+		<div>
+			<i class="fa fa-envelope-o"></i>
+			<span>
+			<h5>contacto@hongosdelosandes.com</h5>
+			<p>Envianos tus pedidos</p>
+			<br><br/>
+			</span>
+		</div>
+		  <div class="contact-banner">
+      <h2>O podés comunicarte con nosotros a través de este formulario</h2>
+  
+      <p class="contact-description">
+       <br><br/>
+       No te olvides de completar todas las casillas correctamente
+      </p>
+    </div>
+
+    <form name="contact-form">
+      <div class="form-control">
+        <label>Nombre Completo</label>
+        <input name="name"
+          placeholder="Nombre y Apellido" />
+        <div class="error hide">Es necesario un nombre</div>
+      </div>
+
+      <div class="form-control">
+        <label>Email</label>
+        <input
+          name="email"
+          placeholder="ej. tuemail@ejemplo.com"
+        />
+        <div class="error hide">Email inválido</div>
+      </div>
+
+      <div class="form-control">
+        <label>Teléfono</label>
+        <input name="phone"
+        ></input>
+        <div class="error hide">Teléfono inválido</div>
+      </div>
+
+      <div class="form-control">
+        <label>Mensaje</label>
+        <textarea name="message"></textarea>
+        <div class="error hide">Es necesario un mensaje</div>
+      </div>
+
+      <hr />
+
+      <button type="submit">Enviar mensaje</button>
+    </form>
+   
+    <div class="thank-you hidden">
+    ¡Gracias por tu mensaje!
+    </div>
+
+    <script src="index.js"></script>
+	</div>
+
+<!------ Pie de página ------>
+<section class="footer">
+	<h3>Te invitamos a seguirnos en redes y conocer nuestro trabajo</h3>
+	&nbsp;
+	<div class="icons">
+		<i class="fa fa-envelope" <p><b> contacto@hongosdelosandes.com</b></p></i>
+	<div class="nav-links" id="navLinks">
+		</div>
+		<i class="fa fa-leaf" <p> 2021 - Hecho por Guillermina Bravo</p></i>	
+		
+</div>
+			
+				
+			
+	
+
+	
+<!------JavaScript for Toggle Menu------>
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+			navLinks.style.right = "0";
+	}
+	function hideMenu(){
+			navLinks.style.right = "-200px";
+	}
+
+</script>
+	
+</body>
+</html>

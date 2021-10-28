@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Hongos de los Andes</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+	<script src="index.js"></script>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logos.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times-circle" onclick="hideMenu()"></i>
+				
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		
+<div class="text-box">
+	<h1>Hongos de los Andes</h1>
+	<p>Desde la cordillera mendocina directo a tu plato</p>
+
+</div>
+	
+</section>
+
+<!------ Sobre ------>
+
+<section class="Sobre">
+	<h1>¿Quiénes somos?</h1>
+<br></br>
+	<p>Hongos de los Andes es un emprendimiento familiar de hongos gourmet. <br>Fue fundado en 2020 con una sola misión: ofrecerte los hongos más frescos del mercado para consumo cotidiano.</br></p>
+<br></br>
+	<img src="images/cocinando.jpg" class="img-responsive" height="456" width="304" alt="">
+
+</section>
+
+<!------ Hongos ------>
+
+<section class="Hongos">
+	<h1>¿Por qué consumir hongos?</h1>
+	<p>Aunque en Argentina no es costumbre consumirlos habitualmente, en los últimos años ha aumentado la demanda de los mismos debido al gran valor culinario y nutritivo que poseen.</p>
+	<p>No te pierdas la oportunidad de contactarnos y probarlos.</p>
+
+</section>
+
+
+<!------ Pie de página ------>
+<section class="footer">
+	<h3>Te invitamos a seguirnos en redes y conocer nuestro trabajo</h3>
+	&nbsp;
+	<div class="icons">
+		<i class="fa fa-envelope" <p><b> contacto@hongosdelosandes.com</b></p></i>
+	<div class="nav-links" id="navLinks">
+		</div>
+		<i class="fa fa-leaf" <p> 2021 - Hecho por Guillermina Bravo</p></i>	
+		
+</div>
+			
+				
+			
+	
+
+	
+<!------JavaScript for Toggle Menu------>
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+			navLinks.style.right = "0";
+	}
+	function hideMenu(){
+			navLinks.style.right = "-200px";
+	}
+
+</script>
+	
+</body>
+</html>
